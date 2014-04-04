@@ -131,7 +131,6 @@ font-family: "Helvetica Neue"
 
     .profile_container
     {
-/*      background-color: #FFFFFF;*/
       width:290px;
       float: left;
     }
@@ -238,8 +237,8 @@ font-family: "Helvetica Neue"
             width: 266px;
             height: 32px;
             font-size: 12px;
-           border-radius: 2px;
-           border: 1px solid rgba(0,132,180,0.25);
+            border-radius: 2px;
+            border: 1px solid rgba(0,132,180,0.25);
           }
 
       .second_block
@@ -254,7 +253,8 @@ font-family: "Helvetica Neue"
       }
 
 
-        .second_block_title h2
+     
+        h2
         {
           color: #66757f;
           font-size: 20px;
@@ -285,18 +285,19 @@ font-family: "Helvetica Neue"
               border-radius: 3px;
             }
 
-        .second_block_footer h3
+         h3
         {
           color: #0084B4;
           font-size: 12px;
-          margin-bottom: 10px;
+          margin-bottom: 8px;
         }
 
       .third_block
       {
         height:228px;
         width:258px;
-        background-color: green;
+        background-color: white;
+        border: 1px solid #e1e8ed;
         padding: 16px;
         border-radius: 6px;
         margin-bottom: 10px;
@@ -306,11 +307,18 @@ font-family: "Helvetica Neue"
       {
         height:72px;
         width:258px;
-        background-color: blue;
+        background-color: white;
         padding: 16px;
         border-radius: 6px;
         margin-bottom: 10px;
       }
+
+        .fourth_block h3
+        {
+          color:grey;
+          line-height: 19px;
+          word-spacing:5px;
+        }
 
     .tweet_newsfeed_container
     {
@@ -323,15 +331,24 @@ font-family: "Helvetica Neue"
       .tweet_newsfeed_header
       {
         border-radius: 5px 5px 0 0;
-        background-color: black;
+        background-color: white;
         width:588px;
         height: 22px;
         padding: 12px 1px;
+        border-bottom: 1px solid #e8e8e8;
       }
+
+        .tweet_newsfeed_header h2
+        {
+          margin-left: 10px;
+          font-size: 22px;
+        }
+
+
 
       .tweet_newsfeed_stream
       {
-        background-color: green;
+        background-color: white;
         width:590px;
         height: 100%;
       }
