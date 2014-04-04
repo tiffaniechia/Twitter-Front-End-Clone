@@ -246,11 +246,51 @@ font-family: "Helvetica Neue"
       {
         height:228px;
         width:258px;
-        background-color: grey;
+        background-color: white;
+        border: 1px solid #e1e8ed;
         padding: 16px;
         border-radius: 6px;
         margin-bottom: 10px;
       }
+
+
+        .second_block_title h2
+        {
+          color: #66757f;
+          font-size: 20px;
+          font-weight: 200;
+          margin-bottom: 10px;
+        }
+
+        .second_block_recommendations
+        {
+          color: #66757f;
+          font-size: 20px;
+          font-weight: 200;
+        }
+
+          .second_block_recommendations_rows
+          {
+            width: 258px;
+            height:49px;
+            border-radius: 4px;
+            background-color: lightgrey;
+            margin-bottom: 10px;
+          }
+
+            .second_block_recommendations_img
+            {
+              width: 49px;
+              height:49px;
+              border-radius: 3px;
+            }
+
+        .second_block_footer h3
+        {
+          color: #0084B4;
+          font-size: 12px;
+          margin-bottom: 10px;
+        }
 
       .third_block
       {
