@@ -89,7 +89,16 @@ body
         border-radius: 6px;
         margin-bottom: 10px;
       }
-      
+
+      .third_block
+      {
+        height:228px;
+        width:258px;
+        background-color: green;
+        padding: 16px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+      }
 
 
 
