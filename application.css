@@ -32,7 +32,7 @@ font-family: "helvetica Neue"
     }
 
 
-      ul
+      ul.navigation_left
       {
         margin: 15px 30px 0 30px ;
       }
@@ -55,7 +55,7 @@ font-family: "helvetica Neue"
     .header_right
     {
       height:46px;
-      width:409px;
+      width:391px;
       float:right;
       background-color: blue;
     }
@@ -67,6 +67,7 @@ font-family: "helvetica Neue"
         background-color: grey;    
         margin-top: 5px;
         border-radius: 21px;
+        float: left;
       }
 
         .header_right input {
@@ -77,6 +78,28 @@ font-family: "helvetica Neue"
           padding: 5px 27px 6px 12px;
           border-radius: 21px;
         }
+
+      ul.navigation_right
+      {
+        width: 165px;
+        height: 33px;
+        background-color: purple;
+        float: right;
+        margin-top: 5px;
+      } 
+
+       ul.navigation_right li
+        {
+          background-color: grey;
+          border-radius: 4px;
+          width: 33px;
+          height: 33px;
+          display: inline;
+          float: left;
+          margin: auto;
+          margin-right: 12px;
+        }
+
 
 .page_outer
 {
