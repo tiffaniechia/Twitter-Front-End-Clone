@@ -32,23 +32,12 @@ body
     background-color: yellow;
   }
 
-    .tweet_newsfeed_container
-    {
-      border-radius: 6px;
-      background-color: #FFFFFF;
-      width:590px;
-      height: 100%;
-      float: right;
-    }
-
     .profile_container
     {
-      border-radius: 6px;
       background-color: #FFFFFF;
       width:290px;
       height: 100%;
       float: left;
-      display: block;
     }
 
       .top_block
@@ -100,6 +89,34 @@ body
         margin-bottom: 10px;
       }
 
+      .fourth_block
+      {
+        height:72px;
+        width:258px;
+        background-color: blue;
+        padding: 16px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+      }
+
+    .tweet_newsfeed_container
+    {
+      border-radius: 6px;
+      background-color: #FFFFFF;
+      width:590px;
+      height: 100%;
+      float: right;
+    }
+  
+      .tweet_newsfeed_header
+      {
+        border-radius: 5px 5px 0 0;
+        background-color: black;
+        width:588px;
+        height: 22px;
+        padding: 12px 1px;
+      }
+  
 
 
 
