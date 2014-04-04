@@ -194,7 +194,23 @@ font-family: "Helvetica Neue"
             {
               width: 32%;
               display: inline-block;
-            }          
+            }   
+
+          .stats_figures
+          {
+            font-size: 18px;
+            font-weight: 500;
+            color:#0084B4;
+            padding-top: 7px;
+            margin-left: 10px;
+          }   
+
+            .stats_figures div 
+            {
+              width: 32%;
+              display: inline-block;
+            }   
+
 
         .quick_tweet_box
         {
