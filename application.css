@@ -1,6 +1,6 @@
 body
 {
-font-family: "helvetica Neue"
+font-family: "Helvetica Neue"
 }
 
 .header_full
@@ -14,21 +14,24 @@ font-family: "helvetica Neue"
   left:0;
 }
   
-    .header_container
+  .header_container
   {
     height:46px;
     width:1190px;
     margin: auto;
-    background-color: red;
+    background-color: white;
     text-align: center;
   }
 
-      .header_left
+    .header_left
     {
       height:46px;
       width:409px;
       float:left;
-      background-color: green;
+      background-color: white;
+      color: grey;
+      font-size: 14px;
+      font-weight: 400;
     }
 
 
@@ -40,15 +43,15 @@ font-family: "helvetica Neue"
       li 
       {
         display:inline;
-        margin:12px;
+        margin:9px;
       }
 
 
     .twitter_logo
     {
-      margin-top: 12px;
-      width: 21px;
-      height: 21px;
+      margin-top: 6px;
+      width: 33px;
+      height: 33px;
 
     }
 
@@ -57,7 +60,7 @@ font-family: "helvetica Neue"
       height:46px;
       width:391px;
       float:right;
-      background-color: blue;
+      background-color: white;
     }
 
       .header_search
@@ -83,7 +86,7 @@ font-family: "helvetica Neue"
       {
         width: 165px;
         height: 33px;
-        background-color: purple;
+        background-color: white;
         float: right;
         margin-top: 5px;
       } 
@@ -112,7 +115,6 @@ font-family: "helvetica Neue"
     margin: auto;
     width: 890px;
     padding: 56px 23px  15px;
-    background-color: yellow;
   }
 
     .profile_container
@@ -138,8 +140,18 @@ font-family: "helvetica Neue"
           border-radius: 5px 5px 0 0;
           background-color: blue;
           width:100%;
-          height: 180px;
+          height: 128px;
           display: block;
+          background-image: url('images/imgres.jpg');
+          background-size: cover;
+        }
+
+        .mini_profile_stats
+        {
+          width:266px;
+          height: 52px;
+          padding: 0 12px;
+          background-color: red;
         }
 
         .quick_tweet_box

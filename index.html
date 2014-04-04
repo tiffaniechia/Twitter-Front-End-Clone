@@ -4,6 +4,7 @@
   <title>Twitter</title>
   <link type="text/css" rel="stylesheet" href="reset.css">
   <link type="text/css" rel="stylesheet" href="application.css">
+   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
 
@@ -13,18 +14,18 @@
 
     <div class= "header_left">
       <ul class="navigation_left">
-        <li>Home</li>
-        <li>Notifications</li>
-        <li>Discover</li>
-        <li>Me</li>
+        <li><i class="fa fa-home"></i>  Home</li>
+        <li><i class="fa fa-bell"></i>   Notifications</li>
+        <li><i class="fa fa-plus"></i>  Discover</li>
+        <li><i class="fa fa-user"></i>  Me</li>
       </ul>
     </div>  
 
-    <img src="https://abs.twimg.com/favicons/favicon.ico" class="twitter_logo">
+    <img src="images/twitter.png" class="twitter_logo">
 
     <div class= "header_right">
       <form class="header_search" action="/search">
-      <input class="search-input" type="text" placeholder="Search">
+      <input class="search_input" type="text" placeholder="Search">
       <button type="submit" id="Submit"></button>
       </form>
 
@@ -32,7 +33,7 @@
         <li class="icon_messages"></li>
         <li class="icon_settings"></li>
         <li class="icon_compose"></li>
-      </ul>   
+      </ul>
     </div> 
 
   </div>  
@@ -44,6 +45,7 @@
     <div class= "profile_container">
       <div class= "top_block">
         <div class="mini_profile"></div>
+        <div class="mini_profile_stats"></div>
         <div class="quick_tweet_box"></div>
       </div>  
       <div class= "second_block"></div>  
