@@ -17,9 +17,10 @@ font-family: "helvetica Neue"
     .header_container
   {
     height:46px;
-    width:50%;
+    width:1190px;
     margin: auto;
     background-color: red;
+    text-align: center;
   }
 
       .header_left
@@ -31,23 +32,21 @@ font-family: "helvetica Neue"
     }
 
 
-    ul
-    {
-      margin: 15px 30px 0 30px ;
-    }
+      ul
+      {
+        margin: 15px 30px 0 30px ;
+      }
 
-    li 
-    {
-      display:inline;
-      margin:12px;
-    }
+      li 
+      {
+        display:inline;
+        margin:12px;
+      }
 
 
     .twitter_logo
     {
       margin-top: 12px;
-      margin-left: 59px;
-      display: inline-block;
       width: 21px;
       height: 21px;
 
@@ -61,6 +60,23 @@ font-family: "helvetica Neue"
       background-color: blue;
     }
 
+      .header_search
+      {
+        height:33px;
+        width:192px;
+        background-color: grey;    
+        margin-top: 5px;
+        border-radius: 21px;
+      }
+
+        .header_right input {
+          background-color: grey;
+          color: lightgrey;
+          font-size: 12px;
+          border-color: transparent;
+          padding: 5px 27px 6px 12px;
+          border-radius: 21px;
+        }
 
 .page_outer
 {
