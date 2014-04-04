@@ -73,14 +73,26 @@ font-family: "Helvetica Neue"
         float: left;
       }
 
-        .header_right input {
+        .header_right input 
+        {
           background-color: grey;
           color: lightgrey;
           font-size: 12px;
           border-color: transparent;
           padding: 5px 27px 6px 12px;
           border-radius: 21px;
+          width: 150px;
         }
+
+        #Submit
+        {
+          background-color: transparent;
+          border-color: transparent;
+          color: white;
+          width: 30px;
+          height: 30px;
+        }
+
 
       ul.navigation_right
       {
@@ -119,7 +131,7 @@ font-family: "Helvetica Neue"
 
     .profile_container
     {
-      background-color: #FFFFFF;
+/*      background-color: #FFFFFF;*/
       width:290px;
       float: left;
     }
@@ -186,7 +198,7 @@ font-family: "Helvetica Neue"
             font-size: 10px;
             color:gray;
             text-shadow: 0 1px 1px rgba(0,0,0,.1);
-            padding-top: 7px;
+            padding-top: 10px;
             margin-left: 10px;
           }
 
@@ -201,7 +213,7 @@ font-family: "Helvetica Neue"
             font-size: 18px;
             font-weight: 500;
             color:#0084B4;
-            padding-top: 7px;
+            padding-top: 3px;
             margin-left: 10px;
           }   
 
@@ -217,9 +229,18 @@ font-family: "Helvetica Neue"
           width:266px;
           height: 32px;
           padding: 10px 12px;
-          background-color: purple;
+          background-color: #E5F2F7;
           border-radius: 0 0 5px 5px;
         }
+
+          .new_tweet_input
+          {
+            width: 266px;
+            height: 32px;
+            font-size: 12px;
+           border-radius: 2px;
+           border: 1px solid rgba(0,132,180,0.25);
+          }
 
       .second_block
       {
