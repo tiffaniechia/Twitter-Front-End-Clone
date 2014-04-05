@@ -278,7 +278,7 @@ font-family: "Helvetica Neue"
             margin-bottom: 10px;
           }
 
-            .second_block_recommendations_img
+            .egg_img
             {
               width: 49px;
               height:49px;
@@ -351,8 +351,83 @@ font-family: "Helvetica Neue"
         background-color: white;
         width:590px;
         height: 100%;
+
       }
   
+        .tweet_newsfeed_stream_rows
+        {
+      /*    background-color: lightgrey;*/
+          border-radius: 4px;
+          width:570px;
+          height: 77px;
+          margin: 10px 10px 10px 10px;
+         /* padding-top: 5px;*/
+        }
 
+        .icon
+        {
+          border-color: green;
+          float: left;
+          width: 10%;
+          height:77px;
+        }
 
+        .information
+        {
+          border-color: red;
+          float: right;
+          width: 90%;
+          height:77px;
+        }
 
+        .information div
+        {
+          margin-bottom: 8px;
+        }
+
+         .tweet_newsfeed_stream_rows_title_user_name h4
+          {
+            color: black;
+            font-weight:500;
+            font-size: 10px;
+          }
+
+          .second_row h3
+          {
+            color:grey;
+          }
+
+       .third_row
+       {
+        height: 22px;
+       }   
+
+         .third_row .expand_action_left
+         {
+          margin-top: 5px;
+          width: 50%;
+          float:left;
+         }   
+
+           .third_row h5
+           {
+            font-size: 10px;
+            color: grey;
+           }   
+
+         .third_row .expand_action_right
+         {
+          width: 50%;
+          float: right;
+         }   
+
+            .third_row .expand_action_right ul
+           {
+            display: inline;
+           }   
+
+              .third_row .expand_action_right li
+             {
+              font-size: 10px;
+              color: grey;
+             }  
