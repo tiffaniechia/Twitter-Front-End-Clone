@@ -149,6 +149,7 @@ font-family: "Helvetica Neue"
     margin: auto;
     width: 890px;
     padding: 56px 23px  15px;
+    /*height: 100%*/
   }
 
     .profile_container
@@ -272,6 +273,7 @@ font-family: "Helvetica Neue"
         padding: 16px;
         border-radius: 6px;
         margin-bottom: 10px;
+        margin-top: 0px;
       }
 
 
@@ -317,7 +319,6 @@ font-family: "Helvetica Neue"
 
 
 
-
          h3
         {
           color: #0084B4;
@@ -359,6 +360,7 @@ font-family: "Helvetica Neue"
       background-color: #FFFFFF;
       width:590px;
       float: right;
+     /* overflow: hidden;*/
     }
   
       .tweet_newsfeed_header
