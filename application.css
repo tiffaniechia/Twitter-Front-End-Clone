@@ -264,6 +264,28 @@ font-family: "Helvetica Neue"
             border: 1px solid rgba(0,132,180,0.25);
           }
 
+          .hidden_buttons
+          {
+            padding-top: 25px;
+            display: none;
+            color:#0084B4;
+          }
+
+            .characters
+            {
+             margin-left: 60px;
+            }
+
+             .tweet_button
+            {
+              padding: 9px ; 
+              background-color:#0084B4;
+              color: white;
+              width: 100px;
+              height: 45px;
+              border-radius: 4px;
+            }
+
       .second_block
       {
         height:228px;
