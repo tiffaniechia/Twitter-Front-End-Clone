@@ -123,7 +123,7 @@ font-family: "Helvetica Neue"
           .icon_settings
           {
             color: grey;
-            font-size: 20px;
+            font-size: 22px;
             padding-top: 6px;
           }
 
@@ -300,12 +300,23 @@ font-family: "Helvetica Neue"
             margin-bottom: 10px;
           }
 
+
+            .second_block_recommendations_rows_info
+            {
+             display: inline-block;
+            }
+
+ 
+
             .egg_img
             {
               width: 49px;
               height:49px;
               border-radius: 3px;
             }
+
+
+
 
          h3
         {
@@ -392,6 +403,8 @@ font-family: "Helvetica Neue"
          /* padding-top: 5px;*/
         }
 
+
+
         .icon
         {
           border-color: green;
@@ -410,14 +423,25 @@ font-family: "Helvetica Neue"
 
         .information div
         {
-          margin-bottom: 6px;
+          margin-bottom: 4px;
         }
+
+         
 
          .top_row h4
           {
             color: black;
             font-weight:bold;
             font-size: 14px;
+             display: inline;
+          }
+
+          .top_row h3
+          {
+            color:grey;
+            display: inline;
+            margin-left: 2px;
+            font-size: 13px;
           }
 
 
