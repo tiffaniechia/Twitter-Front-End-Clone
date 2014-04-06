@@ -47,7 +47,7 @@ font-family: "Helvetica Neue"
       }
 
 
-      li.navigation_left:hover
+      .navigation_left li:hover
       {
         color: #0084B4;
       }
@@ -145,6 +145,11 @@ font-family: "Helvetica Neue"
 
             background-color: #55acee;
             border-radius: 4px;
+          }
+
+          .navigation_right li:hover
+          {
+            color: #0084B4;
           }
 
 
