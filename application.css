@@ -47,6 +47,11 @@ font-family: "Helvetica Neue"
       }
 
 
+      li.navigation_left:hover
+      {
+        color: #0084B4;
+      }
+
     .twitter_logo
     {
       margin-top: 6px;
@@ -82,6 +87,11 @@ font-family: "Helvetica Neue"
           padding: 5px 27px 6px 12px;
           border-radius: 21px;
           width: 150px;
+        }
+
+        input:focus
+        {
+          outline:none;
         }
 
         #Submit
