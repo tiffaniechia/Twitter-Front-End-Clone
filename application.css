@@ -335,32 +335,83 @@ font-family: "Helvetica Neue"
             width: 258px;
             height:49px;
             border-radius: 4px;
-            background-color: lightgrey;
+            background-color: white;
             margin-bottom: 10px;
+            overflow-x:hidden;
           }
 
 
-            .second_block_recommendations_rows_info
+            .icon_left
             {
-             display: inline-block;
+             width: 49px;
+             float:left;
+           /*  background-color: green;*/
+          /*   display: inline;*/
+            }
+              .egg_img
+              {
+                width: 49px;
+                height:49px;
+                border-radius: 3px;
+              }
+
+            .info_right
+            {
+              height: 49px;
+              width:209;
+              float: right;
+          /*    border-color: red;
+              overflow: hidden;*/
             }
 
- 
+              .info_right h3
+              {
+                display: inline;
+              }
 
-            .egg_img
-            {
-              width: 49px;
-              height:49px;
-              border-radius: 3px;
-            }
+                .info_right_name
+                {
+                  margin-left: 5px;
+                  color: black;
+                  font-weight: bold;
+                  font-size: 12px;
+                  padding-top: 0px;
+                  vertical-align: 8px;
+                 
+                }
+
+   
+                .info_right_user
+                {
+                  color: gray;
+                  margin-left: -3px;
+                  font-size: 12px;
+                  vertical-align: 8px;
+                }
 
 
+                .follow_button
+                {
+                  color: #0084B4;
+
+                  font-weight: bold;
+                  font-size: 13px;
+                  background-color: #F7F7F7;
+                  border-radius: 4px;
+                  padding: 5px 10px 0px 10px ;
+                  border: 1px solid #e1e8ed;
+                  width:60px;
+                  height: 20px;
+                  margin-left: 5px;
+                  /*text-shadow: 0 1px 1px rgba(0,0,0,.1);*/
+                }
 
          h3
         {
           color: #0084B4;
           font-size: 12px;
           margin-bottom: 8px;
+          /*margin-top: 4px;*/
         }
 
       .third_block
