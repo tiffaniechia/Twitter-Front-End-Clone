@@ -9,7 +9,7 @@ This task was created by [Alex Peattie](https://github.com/alexpeattie) for [Mak
 #### Twitter template built:  
  ![screenshot](images/twitter_basic.png)
 
- #### Javascript & JQuery functionality for pop up tweet composing:
+#### Javascript & JQuery functionality for pop up tweet composing:
  ![screenshot](images/twitter_compose_tweet.png)
 
 ##
