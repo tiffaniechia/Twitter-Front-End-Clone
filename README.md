@@ -2,7 +2,9 @@
 
 The goal of this task was to recreate Twitter's Front end template, backend capabilites are not required of this task.
 
-This task was created by [Alex Peattie](https://github.com/alexpeattie) for [Makers Academy](www.makersacademy.com)'s Week 7 test for the purposes of grasping front end development.
+This task was created by [Alex Peattie](https://github.com/alexpeattie).
+
+(Week 7)
 
 ## 
 
@@ -15,7 +17,7 @@ This task was created by [Alex Peattie](https://github.com/alexpeattie) for [Mak
 ##
 
 
-### Stack:
+##Technologies Used
 - HTML
 - CSS
 - Javascript
